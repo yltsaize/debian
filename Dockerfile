@@ -1,4 +1,4 @@
-FROM debian:bullseye-20221114
+FROM debian:buster-20221114
 
 RUN apt-get update && apt-get install -y \
     gnupg \
